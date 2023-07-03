@@ -1,14 +1,18 @@
 body {
-  width: 100%;
+  width: 100vw;
   height: 300vh;
   background-color: #ccc;
   .container {
-    width: 600px;
-    height: 200px;
+    width: 70%;
+    min-width: 400px;
     margin: 0 auto;
     #header {
       position: fixed;
-      width: 600px;
+      left: 50%;
+      top: 0;
+      transform: translateX(-50%);
+      width: 70%;
+      min-width: 400px;
       height: 66px;
       background-color: #f5fff85e;
       backdrop-filter: blur(10px);

@@ -1,0 +1,67 @@
+#section4 {
+  .container {
+    width: 70%;
+    min-width: 400px;
+    height: 300vh;
+    background-color: #f5e9df;
+    .parallax__item {
+      position: relative;
+      .parallax__item__num {
+        font-size: 6vw;
+        position: absolute;
+        left: 37vw;
+        top: 5vw;
+      }
+      .parallax__item__text1 {
+        font-size: 10px;
+        font-family: NexonLv1GothicLow;
+        position: absolute;
+        left: 38vw;
+        top: 15vw;
+        line-height: 1.5;
+        text-align: left;
+      }
+      .parallax__item__imgWrap {
+        .parallax__item__img {
+          background-image: url(../../images/img01.png);
+          width: 50%;
+          height: 30vh;
+          background-size: cover;
+          background-repeat: no-repeat;
+        }
+      }
+    }
+    .button1 {
+      position: relative;
+
+      .git {
+        width: 11vw;
+        height: 3vw;
+        font-size: 1.3vw;
+        border-radius: 50px;
+        background-color: #f5e9df;
+        color: #ad8073;
+        border: 1px solid #ad8073;
+        position: absolute;
+        left: 38vw;
+        top: -7vw;
+        text-align: center;
+        font-weight: 100;
+      }
+      .site {
+        width: 11vw;
+        height: 3vw;
+        font-size: 1.3vw;
+        border-radius: 50px;
+        background-color: #f5e9df;
+        color: #ad8073;
+        border: 1px solid #ad8073;
+        position: absolute;
+        left: 52vw;
+        top: -7vw;
+        text-align: center;
+        font-weight: 100;
+      }
+    }
+  }
+}
